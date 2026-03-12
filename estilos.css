@@ -1,0 +1,10 @@
+body{font-family:Arial;margin:0;background:#f4f6f9;}
+header{background:#002b45;color:white;padding:15px;display:flex;justify-content:space-between;}
+.hero{text-align:center;padding:60px;background:linear-gradient(to right,#002b45,#005b8f);color:white;}
+.btn{background:#005b8f;color:white;padding:10px 20px;text-decoration:none;}
+.login-box{width:300px;margin:100px auto;padding:20px;background:white;box-shadow:0 0 10px rgba(0,0,0,0.2);}
+input,textarea,select{width:100%;margin:10px 0;padding:8px;}
+button{background:#002b45;color:white;padding:10px;border:none;cursor:pointer;}
+button:hover{background:#005b8f;}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px;padding:20px;}
+.card{background:white;padding:20px;box-shadow:0 0 5px rgba(0,0,0,0.1);}
